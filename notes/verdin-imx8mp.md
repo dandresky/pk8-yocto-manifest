@@ -4,3 +4,8 @@ The **export** environment setup script creates a local.conf file without any ma
 - Add **"ACCEPT_FSL_EULA = "1""** at the end of the file.
 
 My first build is core-image-full-cmdline.
+
+&nbsp;
+======
+
+Navigate to the following folder to retrieve the build artifact.
