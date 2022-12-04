@@ -62,7 +62,7 @@ bitbake <target>
 
 Example:
 ```
-bitbake core-image-minimal
+bitbake tdx-reference-minimal-image
 ```
 
 &nbsp;

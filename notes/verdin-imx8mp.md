@@ -10,11 +10,6 @@ My first build is tdx-reference-minimal-image.
 
 # Added Packages
 
-Utilities for bluetooth
-```
-CORE_IMAGE_EXTRA_INSTALL += "obexftp obex-data-server python3 python3-dbus python3-pygobject python3-pybluez"
-```
-
 I prefer nano over vi
 ```
 CORE_IMAGE_EXTRA_INSTALL += "nano"
@@ -23,4 +18,17 @@ CORE_IMAGE_EXTRA_INSTALL += "nano"
 To do video encode on 8M in software?
 ```
 #CORE_IMAGE-EXTRA_INSTALL += "gstreamer1.0-plugins-ugly-meta packagegroup-fsl-gsstreamer1.0-commercial gst-ffmpeg"
+```
+
+# Created first meta layer called meta-pk8-verdin-experimental
+
+```
+$ cd build
+$ bitbake-layers create-layer ../layers/meta-pk8-verdin-experimental
+```
+
+Added the new layer to the bblayers.conf file
+
+```
+${TOPDIR}/../layers/meta-pk8-verdin-experimental \
 ```
