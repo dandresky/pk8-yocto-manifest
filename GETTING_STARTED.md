@@ -1,6 +1,6 @@
-# <span style="color:teal">Getting Started</span>
+# Getting Started
 
-## <span style="color:orange">Install the Git `repo` utility</span>
+## Install the Git `repo` utility
 
 To use a manifest, the `repo` tool must be installed first. This step only needs to be performed the first time the build machine is set up.
 
@@ -13,7 +13,7 @@ $: PATH=${PATH}:~/bin
 
 &nbsp;
 
-## <span style="color:orange">Pull Layers</span>
+## Pull Layers
 
 Make a working directory for running builds (if it doesn't already exist). Change to this folder and initialize the Git Repo utility to point at the desired manifest. Running **repo sync** will pull all layers required for the build.
 
@@ -39,7 +39,7 @@ At this point you will have a **layers** or **sources** directory (depending on 
 
 &nbsp;
 
-## <span style="color:orange">Set up the Environment</span>
+## Set up the Environment
 
 Each manifest has a unique script for setting up the environment (copied to the working directory in the above step). Navigate to the working directory and run the appropriate script.
 
@@ -52,7 +52,7 @@ Each manifest has a unique script for setting up the environment (copied to the 
 
 &nbsp;
 
-# <span style="color:teal">Build</span>
+# Build
 
 Each BSP has a unique list of targets you can build with, but there should generally be minimal, cmd line, multimedia, and ML images available. From the **build** directory run the bitbake command with the desired target.
 
@@ -67,9 +67,9 @@ bitbake tdx-reference-minimal-image
 
 &nbsp;
 
-# <span style="color:teal">Flash the Device</span>
+# Flash the Device
 
-## <span style="color:orange">Verdin iMX8M Plus</span>
+## Verdin iMX8M Plus
 
 There are multiple ways to flash the Verdin module. I am using the Toradex Easy Installer with the image written to a USB drive.
 
