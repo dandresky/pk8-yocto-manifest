@@ -17,6 +17,8 @@ git clone -b main https://github.com/dandresky/meta-pk8-verdin-experimental.git
 ```
 # add some Peak 8 packages - This list will change over time
 IMAGE_INSTALL:append = " hello-world"
+#IMAGE_INSTALL:append = " hello-world-boot"
+#IMAGE_INSTALL:append = " unblock-bluetooth"
 ```
 
 ## Edit bblayers.conf
