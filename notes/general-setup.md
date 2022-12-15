@@ -2,6 +2,8 @@
 
 The **export** environment setup script that comes from the Toradex manifest creates a **local.conf** and a **bblayers.conf** file that is used as the reference for all other changes documented in these notes.
 
+&nbsp;
+
 ## Edit local.conf
 
 The first change to make is to select a machine. The default **local.conf** file includes a list of Toradex modules. Uncomment the Verdin module.
@@ -24,6 +26,8 @@ Add the following packages:
 # add some packages - list will grow over time
 IMAGE_INSTALL:append = " nano"
 ```
+
+&nbsp;
 
 ## Edit bblayers.conf
 

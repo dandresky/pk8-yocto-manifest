@@ -13,6 +13,8 @@ The following table identifies manifests I examined and the boards they are asso
 | [Boundary Devices Nitrogen8M](https://boundarydevices.com/product/nitrogen8m/) | [boundary-bsp-platform](https://github.com/boundarydevices/boundary-bsp-platform) |
 | [Advantech RSB-3720](https://www.advantech.com/en/products/single_board_computer/rsb-3720/mod_d2f1b0bc-650b-449a-8ef7-b65ce4f69949) | [adv-arm-yocto-bsp](https://github.com/ADVANTECH-Corp/adv-arm-yocto-bsp) |
 
+&nbsp;
+
 ## Why this project?
 
 Presently, to do a Yocto build for a board I have to use the manifest and setup scripts for each board. Then I have to manually edit things like **local.conf**, **bblayers.conf**, etc. before building. To add custom layers and recipes will be a manual process as well.

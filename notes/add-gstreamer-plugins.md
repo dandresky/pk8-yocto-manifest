@@ -8,9 +8,13 @@ To determine is a plugin recipe is available in the build environment, run the f
 $ bitbake-layers show-recipes "*plugin name*"
 ```
 
+&nbsp;
+
 ## Add necessary layers
 
 At this time, all desired plugin recipes are available with the Toradex distro. There is no need to add a layer or append.
+
+&nbsp;
 
 ## Edit local.conf
 
@@ -23,6 +27,8 @@ IMAGE_INSTALL:append = " gst-shark"
 # for capturing the display as a source
 IMAGE_INSTALL:append = " pipewire"
 ```
+
+&nbsp;
 
 ## Edit bblayers.conf
 

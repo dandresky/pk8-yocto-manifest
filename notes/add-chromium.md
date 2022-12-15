@@ -2,6 +2,8 @@
 
 **12/12/22** - I get an error when running chromium-ozone-wayland_106.0.5249.119.bb:do_compile. Logs don't provide any useful information. I attempted builds with different branches to no avail and even wiped the build folder and started fresh. Would prefer to focus on webkit so will come back to this later. 
 
+&nbsp;
+
 ## Add necessary layers
 
 From the **layers** directory:
@@ -18,6 +20,8 @@ From the **layers/meta-openembedded** directory:
 git clone -b kirkstone-clang12 https://github.com/kraj/meta-clang.git
 ```
 
+&nbsp;
+
 ## Edit local.conf
 
 ```
@@ -26,12 +30,16 @@ IMAGE_INSTALL:append = " chromium-ozone-wayland"
 LICENSE_FLAGS_ACCEPTED += "commercial_libav commercial_x264"
 ```
 
+&nbsp;
+
 ## Edit bblayers.conf
 
 ```
 ${TOPDIR}/../layers/meta-browser/meta-chromium \
 ${TOPDIR}/../layers/meta-openembedded/meta-clang \
 ```
+
+&nbsp;
 
 ## chromium-ozone-wayland_106.0.5249.119.bb
 
