@@ -31,9 +31,9 @@ examples:
 | Board | Manfest |
 | - | - |
 | iMX8MQ EVK | $repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-kirkstone -m imx-5.15.52-2.1.0.xml |
-| Verdin iMX8M Plus | $repo init -u https://git.toradex.com/toradex-manifest.git -b kirkstone-6.x.y -m tdxref/default.xml |
+| Verdin iMX8M Plus | $repo init -u git://git.toradex.com/toradex-manifest.git -b kirkstone-6.x.y -m tdxref/default.xml |
 | Boundary Devices Nitrogen8M | $repo init -u https://github.com/boundarydevices/boundary-bsp-platform -b kirkstone -m default.xml |
-| Advantech RSB-3720 | $repo init -u https://github.com/ADVANTECH-Corp/adv-arm-yocto-bsp.git  -b imx-linux-kirkstone -m imx-5.15.52-2.1.0.xml
+| Advantech RSB-3720 | $repo init -u git://github.com/ADVANTECH-Corp/adv-arm-yocto-bsp.git  -b imx-linux-kirkstone -m imx-5.15.52-2.1.0.xml
 
 At this point you will have a **layers** or **sources** directory (depending on the manifest) with all required layers downloaded, and an environment setup script.
 
