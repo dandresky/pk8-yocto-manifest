@@ -11,10 +11,8 @@ From the [webkit.org](https://webkit.org/wpe/#:~:text=WPE%20is%20the%20reference
 From the **layers** directory:
 
 ```
-git clone -b honister https://github.com/Igalia/meta-webkit.git
+git clone -b dunfell https://github.com/Igalia/meta-webkit.git
 ```
-
-**Note:** normally we would specify the same branch as the Yocto version we are using (kirkstone) but there is no kirkstone branch (as of 12/22). However, the honister branch has kirkstone in its compatibility list.
 
 &nbsp;
 
