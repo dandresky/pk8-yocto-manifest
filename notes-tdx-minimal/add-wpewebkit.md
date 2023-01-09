@@ -20,7 +20,7 @@ git clone -b dunfell https://github.com/Igalia/meta-webkit.git
 
 ```
 # for webkit
-IMAGE_INSTALL:append = " wpewebkit cog imx-gst1.0-plugin"                                                                     
+IMAGE_INSTALL:append = " wpewebkit cog imx-gst1.0-plugin"
 PREFERRED_PROVIDER_virtual/wpebackend = "wpebackend-fdo"
 ```
 
